@@ -4,8 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load model
-model = pickle.load(open("xgboost_model.pkl", "rb"))
-
+model = pickle.load(open("food-delivery-time-prediction/xgboost_model.pkl", "rb"))
 st.title("🚀 Food Delivery Time Predictor")
 
 # Inputs (same features used in training!)
